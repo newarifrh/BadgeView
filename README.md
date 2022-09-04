@@ -1,10 +1,4 @@
-# 该项目已废弃停止维护, 请不要再您的生产环境中使用
-
-
-# BadgeView
-[ ![Download](https://api.bintray.com/packages/qstumn/maven/badgeview/images/download.svg) ](https://bintray.com/qstumn/maven/badgeview/_latestVersion)
-
-一个可以自由定制外观、支持拖拽消除的MaterialDesign风格Android BadgeView
+# Android BadgeView
 
 ![](https://github.com/qstumn/BadgeView/blob/master/demo.png?raw=true)
 
@@ -26,9 +20,17 @@
 ## how to use:
 ### 1. gradle
 ```groovy
-    compile 'q.rorbin:badgeview:1.1.3'
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+ 
+dependencies {
+	implementation 'com.github.User:Repo:Tag'
+}
 ```
-VERSION_CODE : [here](https://github.com/qstumn/BadgeView/releases)
+VERSION_CODE : [here](https://github.com/newarifrh/BadgeView/releases)
 
 ### 2. code
 ```java
