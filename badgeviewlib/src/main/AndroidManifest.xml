@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="q.rorbin.badgeview">
+    package="dev.blank.badgeview">
 
     <application />
 </manifest>

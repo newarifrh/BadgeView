@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="q.rorbin.badgeviewdemo">
+    package="dev.blank.badgeviewdemo">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:windowSoftInputMode="adjustResize|stateHidden">
+            android:name="dev.blank.badgeviewdemo.MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewActivity"></activity>
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name="dev.blank.badgeviewdemo.ListViewActivity" />
+        <activity android:name="dev.blank.badgeviewdemo.RecyclerViewActivity" />
     </application>
 
 </manifest>

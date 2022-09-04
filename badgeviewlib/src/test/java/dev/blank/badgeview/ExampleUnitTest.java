@@ -1,4 +1,4 @@
-package q.rorbin.badgeviewdemo;
+package dev.blank.badgeview;
 
 import org.junit.Test;
 
