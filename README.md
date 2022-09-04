@@ -27,7 +27,7 @@ allprojects {
 }
  
 dependencies {
-	implementation 'com.github.User:Repo:Tag'
+	implementation 'com.github.newarifrh:BadgeView:1.0'
 }
 ```
 VERSION_CODE : [here](https://github.com/newarifrh/BadgeView/releases)
